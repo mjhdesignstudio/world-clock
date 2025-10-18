@@ -2,7 +2,6 @@ body {
   background-image: url("../css/world-map.jpg");
   background-repeat: no-repeat;
   height: 100vh;
-  text-align: center;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -25,10 +24,13 @@ h2 {
 }
 
 footer {
+  display: block;
   font-size: 14px;
   color: whitesmoke;
   padding-bottom: 15px;
   margin-top: 5px;
+  padding-left: 0;
+  text-align: center;
 }
 a {
   color: antiquewhite;
