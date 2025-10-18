@@ -4,22 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js
-    <script src=""></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.6.0/moment-timezone-with-data-1970-2030.min.js"></script>
 
     <title>World Clock</title>
   </head>
   <body>
-    <h1>World Clock</h1>
+    <div class="container">
+      <h1>World Clock</h1>
+      <select name="city-selector" id="city-selector" class="city-selector">
+        <option value="">Select a city...</option>
+        <option value="Sydney">Sydney 🇦🇺</option>
+        <option value="Seattle">Seattle 🇺🇸</option>
+        <option value="Paris">Paris 🇫🇷</option>
+      </select>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/mkmelhundley-code"></a>Melissa Hundley, is
-      open-sourced on
-      <a href="https://github.com/mkmelhundley-code/world-clock"></a>gitHub, and
-      is hosted by <a href="https://world-clock-jade.vercel.app/"></a>Vercel
-    </footer>
+      <div class="city">Sydney 🇦🇺</div>
+      <div class="time">9:30:15 AM</div>
+      <div class="date">Saturday, October 18, 2025</div>
+      <div class="city">Seattle 🇺🇸</div>
+      <div class="time">9:30:15 AM</div>
+      <div class="date">Saturday, October 18, 2025</div>
+      <div class="city">Paris 🇫🇷</div>
+      <div class="time">9:30:15 AM</div>
+      <div class="date">Saturday, October 18, 2025</div>
+
+      <footer>
+        This project was coded by
+        <a href="https://github.com/mkmelhundley-code">Melissa Hundley</a>, is
+        open-sourced on
+        <a href="https://github.com/mkmelhundley-code/world-clock">gitHub</a>,
+        and is hosted by
+        <a href="https://world-clock-jade.vercel.app/">Vercel</a>
+      </footer>
+    </div>
     <script src="javascript/script.js"></script>
   </body>
 </html>
