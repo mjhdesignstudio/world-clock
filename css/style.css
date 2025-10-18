@@ -56,6 +56,10 @@ a {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 
+.all-cities {
+  color: #1c1b43;
+}
+
 .city:last-child {
   border-bottom: none;
 }
