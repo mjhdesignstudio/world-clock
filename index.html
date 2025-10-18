@@ -25,44 +25,38 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select name="city-selector" id="city-selector" class="city-selector">
+      <select name="city-selector" id="city" class="city-selector">
         <option value="">Select a city...</option>
-        <option value="Sydney">Sydney 🇦🇺</option>
-        <option value="Seattle">Seattle 🇺🇸</option>
-        <option value="Paris">Paris 🇫🇷</option>
+        <option value="Europe/London">London 🇬🇧</option>
+        <option value="America/New_York">New York 🇺🇸</option>
+        <option value="Pacific/Auckland">Auckland 🇦🇺</option>
       </select>
 
-      <div class="city" id="sydney">
-        <div>
-          <h2>Sydney 🇦🇺</h2>
-          <div class="date"></div>
+      <div class="cities" id="cities">
+        <div class="city" id="sydney">
+          <div>
+            <h2>Sydney 🇦🇺</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
-      <div class="city" id="seattle">
-        <div>
-          <h2>Seattle 🇺🇸</h2>
-          <div class="date"></div>
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris 🇫🇷</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
       </div>
-      <div class="city" id="paris">
-        <div>
-          <h2>Paris 🇫🇷</h2>
-          <div class="date"></div>
-        </div>
-        <div class="time"></div>
-      </div>
-
-      <footer>
-        This project was coded by
-        <a href="https://github.com/mkmelhundley-code">Melissa Hundley</a>, is
-        open-sourced on
-        <a href="https://github.com/mkmelhundley-code/world-clock">gitHub</a>,
-        and is hosted by
-        <a href="https://world-clock-jade.vercel.app/">Vercel</a>
-      </footer>
     </div>
+    <footer>
+      This project was coded by
+      <a href="https://github.com/mkmelhundley-code">Melissa Hundley</a>, is
+      open-sourced on
+      <a href="https://github.com/mkmelhundley-code/world-clock">gitHub</a>, and
+      is hosted by
+      <a href="https://world-clock-jade.vercel.app/">Vercel</a>
+    </footer>
     <script src="javascript/script.js"></script>
   </body>
 </html>
